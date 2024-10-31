@@ -6,8 +6,8 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Developed in Unity",
-          "Connect with your phone",
+          "Made in Sweden",
+          "like kahoot but fun",
           "Shoot asteroids!",
         ],
         autoStart: true,

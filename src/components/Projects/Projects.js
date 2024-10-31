@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Martin from "../../Assets/Projects/Martin.png";
-import Tianyi from "../../Assets/Projects/Tianyi.png";
-import Dingding from "../../Assets/Projects/DingDing.png";
+import Martin from "../../Assets/Projects/Martin.jpeg";
+import Tianyi from "../../Assets/Projects/Tianyi.jpg";
+import Dingding from "../../Assets/Projects/Dingding.jpg";
 import William from "../../Assets/Projects/William.png";
 import Ke from "../../Assets/Projects/Ke.png";
 
@@ -25,7 +25,9 @@ function Projects() {
               imgPath={Tianyi}
               isBlog={false}
               title="Tianyi"
-              description="What was your role in the project"
+              description={<>
+                something <br /> test
+              </>}
             />
           </div>
           <div className="project-card">
@@ -33,7 +35,9 @@ function Projects() {
               imgPath={Dingding}
               isBlog={false}
               title="Dingding"
-              description="What was your role in the project"
+              description={<>
+                something <br /> test
+              </>}
             />
           </div>
           <div className="project-card">
@@ -41,7 +45,9 @@ function Projects() {
               imgPath={William}
               isBlog={false}
               title="William"
-              description="What was your role in the project"
+              description={<>
+                Project lead <br /> test
+              </>}
             />
           </div>
           <div className="project-card">
@@ -49,15 +55,17 @@ function Projects() {
               imgPath={Ke}
               isBlog={false}
               title="Ke Yang"
-              description="What was your role in the project"
+              description={<>
+                Interaction lead <br /> 
+              </>}
             />
           </div>
           <div className="project-card">
             <ProjectCard
               imgPath={Martin}
-              isBlog={true}
+              isBlog={false}
               title="Martin "
-              description="What was your role in the project"
+              description={<>Graphics <br /> Mechanics <br /> Rendering</>}
             />
           </div>
         </div>
