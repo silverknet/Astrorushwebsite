@@ -37,7 +37,7 @@ function Home2() {
         </Col>
       </Row>
 
-        <Row>
+        {/*<Row>
           <Col md={12} className="home-about-social">
             <h1>FIND US ON</h1>
             <p>
@@ -86,7 +86,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row>*/}
       </Container>
     </Container>
   );
