@@ -6,6 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import GraphandIntCard from "./GraphandIntCard";
+import ChallengesCard from "./ChallengesCard";
 
 function About() {
   return (
@@ -27,11 +29,44 @@ function About() {
             <Aboutcard />
           </Col>
           <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              What <strong className="purple">graphics</strong> and <strong className="purple">interactions</strong> did we implement?
+            </h1>
+            <GraphandIntCard />
+          </Col>
+          <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
+          </Col>
+          <Col
+            md={5}
+            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <img src={laptopImg} alt="about" className="img-fluid" />
+          </Col>
+          <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              What <strong className="purple">challenges</strong> did we face? How did we <strong className="purple">solve</strong> them?
+            </h1>
+            <ChallengesCard />
           </Col>
         </Row>
         

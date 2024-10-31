@@ -8,27 +8,28 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            whatup<span className="purple">sup</span>
-            dfg <span className="purple"> sdf.</span>
+            You may remember the game <span className="purple">Asteroids</span>, now imagine you can play it one more but in 3D... With a twist! Your phone is now the controller!
             <br />
-            game balbla
+            Our inspiration is taken from interactive billboards, we want to offer our users the ability to interact without committing to purchasing anything and freely join in on the fun!
             <br />
-            something bla bla
+        
             <br />
+            The <span className="purple">goal</span> of the <span className="purple">AstroRush</span> project is to:
+            <ul>
+              <li className="about-activity">
+                <ImPointRight /> Create a visually pleasing, modern take on a retro experience.
+              </li>
+              <li className="about-activity">
+              <ImPointRight /> To offer our users the ability to quickly and easily interact without committing to purchasing anything.
+              </li>
+              <li className="about-activity">
+              <ImPointRight /> Facilitate user engagement and maintain user comfort through enabling the use of the user's phone as a controller!
+              </li>
+            </ul>
             <br />
-            Game bla shablo la
+            This goal naturally comes with a set of challenges, how will we connect our phones to the game? What will it look like? More on that below:
+            <br />
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Something
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Something else
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> somethingh more
-            </li>
-          </ul>
         </blockquote>
       </Card.Body>
     </Card>
