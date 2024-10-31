@@ -18,7 +18,6 @@ function ChallengesCard() {
               </li>
               <br />
               We set up the server using <span className="purple">Unity Relay</span> and hosted the client via <span className="purple">WebGL</span>, allowing each player to join using their <span className="purple">mobile devices</span>. Unity Relay handles multiplayer connections, while WebGL hosting enables the client to run directly in the browser, so players just open the webpage to jump into the game—<span className="purple">no app needed</span>. Players control movement by tilting their phones.
-              In order to appreciate these graphics, the user has to <span className="purple">interact</span> somehow, so what kind of ways can the user interact?
               <br />
 
               <br />
@@ -34,7 +33,7 @@ function ChallengesCard() {
               <ImPointRight /> How do we make a game session a fulfilling and enjoyable experience? 
               </li>
               <br />
-              In order to appreciate these graphics, the user has to <span className="purple">interact</span> somehow, so what kind of ways can the user interact?
+              By adding engaging mechanics like asteroid shooting, combining both competitive and cooperative elements, pickup items, and multiplayer features. These elements bring out friendly competition and teamwork, while pickups add some strategy, and multiplayer makes the experience feel lively and interactive. Altogether, it creates a richer and more memorable experience for everyone.
               <br />
             </ul>
             <br />
