@@ -25,9 +25,7 @@ function Projects() {
               imgPath={Tianyi}
               isBlog={false}
               title="Tianyi"
-              description={<>
-                something <br /> test
-              </>}
+              description={<>Mechanics <br />Graphics <br />Backend</>}
             />
           </div>
           <div className="project-card">
@@ -36,7 +34,7 @@ function Projects() {
               isBlog={false}
               title="Dingding"
               description={<>
-                something <br /> test
+                Modeling <br />Environment <br />User interface
               </>}
             />
           </div>

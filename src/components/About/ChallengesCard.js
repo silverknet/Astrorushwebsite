@@ -25,7 +25,7 @@ function ChallengesCard() {
               <ImPointRight /> How do we create a parallax effect in a space setting?
               </li>
               <br />
-              In order to appreciate these graphics, the user has to <span className="purple">interact</span> somehow, so what kind of ways can the user interact?
+              We create a parallax effect by <span className="purple">layering stars and asteroids</span> at different distances—far layers move slower and look smaller, while closer ones move faster and appear larger. This gives depth to the space background.
               <br />
 
               <br />
@@ -33,8 +33,7 @@ function ChallengesCard() {
               <ImPointRight /> How do we make a game session a fulfilling and enjoyable experience? 
               </li>
               <br />
-              By adding engaging mechanics like asteroid shooting, combining both competitive and cooperative elements, pickup items, and multiplayer features. These elements bring out friendly competition and teamwork, while pickups add some strategy, and multiplayer makes the experience feel lively and interactive. Altogether, it creates a richer and more memorable experience for everyone.
-              <br />
+              By adding <span className="purple">engaging mechanics</span> like asteroid shooting, pickup items, and multiplayer features, players enjoy friendly competition and teamwork. <span className="purple">Richer interactions</span>, like tilting or shaking their phones, bring strategy and excitement, making the experience lively and memorable for everyone.<br />
             </ul>
             <br />
           </p>
