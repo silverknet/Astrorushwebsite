@@ -17,6 +17,7 @@ function ChallengesCard() {
                 <ImPointRight /> How do we connect the user to the game?
               </li>
               <br />
+              We set up the server using <span className="purple">Unity Relay</span> and hosted the client via <span className="purple">WebGL</span>, allowing each player to join using their <span className="purple">mobile devices</span>. Unity Relay handles multiplayer connections, while WebGL hosting enables the client to run directly in the browser, so players just open the webpage to jump into the game—<span className="purple">no app needed</span>. Players control movement by tilting their phones.
               In order to appreciate these graphics, the user has to <span className="purple">interact</span> somehow, so what kind of ways can the user interact?
               <br />
 
