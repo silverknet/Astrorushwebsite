@@ -25,7 +25,7 @@ function ChallengesCard() {
               <ImPointRight /> How do we create a parallax effect in a space setting?
               </li>
               <br />
-              We create a parallax effect by <span className="purple">layering stars and asteroids</span> at different distances—far layers move slower and look smaller, while closer ones move faster and appear larger. This gives depth to the space background.
+              Since players are not actually moving forwards, we simulate movement by instantiating a <span className="purple">cylindrical</span> shape <span className="purple">repeatedly</span> in specific intervals where asteroids are randomely distributed on its surface. Each set of cylindrical objects is then transformed towards the player over time and is subsequently destroyed to save memory once it passes the player. 
               <br />
 
               <br />
