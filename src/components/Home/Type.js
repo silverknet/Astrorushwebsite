@@ -7,8 +7,9 @@ function Type() {
       options={{
         strings: [
           "Made in Sweden",
-          "like kahoot but fun",
+          "Like kahoot but fun",
           "Shoot asteroids!",
+          "Inspired by peak panic",
         ],
         autoStart: true,
         loop: true,
