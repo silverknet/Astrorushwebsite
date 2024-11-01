@@ -26,6 +26,7 @@ function Projects() {
               isBlog={false}
               title="Tianyi"
               description={<>Mechanics <br />Graphics <br />Backend</>}
+              ghLink="https://github.com/Radranger/DH2413-Project-1-Group-3-Advanced-Graphics-and-Interaction-agi24-/pull/40"
             />
           </div>
           <div className="project-card">
@@ -36,6 +37,7 @@ function Projects() {
               description={<>
                 Modeling <br />Environment <br />User interface
               </>}
+              ghLink="https://github.com/Radranger/DH2413-Project-1-Group-3-Advanced-Graphics-and-Interaction-agi24-/pull/40"
             />
           </div>
           <div className="project-card">
@@ -46,6 +48,7 @@ function Projects() {
               description={<>
                 Project lead <br /> test
               </>}
+              ghLink="https://github.com/Radranger/DH2413-Project-1-Group-3-Advanced-Graphics-and-Interaction-agi24-/pull/40"
             />
           </div>
           <div className="project-card">
@@ -56,6 +59,7 @@ function Projects() {
               description={<>
                 Interaction lead <br /> 
               </>}
+              ghLink="https://github.com/Radranger/DH2413-Project-1-Group-3-Advanced-Graphics-and-Interaction-agi24-/pull/40"
             />
           </div>
           <div className="project-card">
@@ -64,6 +68,7 @@ function Projects() {
               isBlog={false}
               title="Martin "
               description={<>Graphics <br /> Mechanics <br /> Rendering</>}
+              ghLink="https://www.linkedin.com/in/martin-håkansson-3329b0269/"
             />
           </div>
         </div>
