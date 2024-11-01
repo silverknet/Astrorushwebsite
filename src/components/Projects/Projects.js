@@ -48,7 +48,7 @@ function Projects() {
               description={<>
                 Project lead <br /> test
               </>}
-              ghLink="https://github.com/Radranger/DH2413-Project-1-Group-3-Advanced-Graphics-and-Interaction-agi24-/pull/40"
+              ghLink="https://www.linkedin.com/in/william-rolf-0b8514235/"
             />
           </div>
           <div className="project-card">
