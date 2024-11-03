@@ -45,9 +45,7 @@ function Projects() {
               imgPath={William}
               isBlog={false}
               title="William"
-              description={<>
-                Project lead <br /> test
-              </>}
+              description={<>Project lead <br /> Game Design <br /> Audio <br /> User Interface <br /> Mechanics <br /> Graphics</>}
               ghLink="https://www.linkedin.com/in/william-rolf-0b8514235/"
             />
           </div>
