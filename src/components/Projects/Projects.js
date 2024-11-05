@@ -6,7 +6,7 @@ import Martin from "../../Assets/Projects/Martin.jpeg";
 import Tianyi from "../../Assets/Projects/Tianyi.jpg";
 import Dingding from "../../Assets/Projects/Dingding.jpg";
 import William from "../../Assets/Projects/William.png";
-import Ke from "../../Assets/Projects/Ke.png";
+import Ke from "../../Assets/Projects/Ke.jpg";
 
 function Projects() {
   return (
@@ -54,10 +54,8 @@ function Projects() {
               imgPath={Ke}
               isBlog={false}
               title="Ke Yang"
-              description={<>
-                Interaction lead <br /> 
-              </>}
-              ghLink="https://github.com/Radranger/DH2413-Project-1-Group-3-Advanced-Graphics-and-Interaction-agi24-/pull/40"
+              description={<>Mechanics <br /> Interaction lead </>}
+              ghLink="https://www.linkedin.com/in/ke-yang-71130a325/"
             />
           </div>
           <div className="project-card">

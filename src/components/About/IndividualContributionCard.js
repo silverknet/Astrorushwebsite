@@ -7,54 +7,91 @@ function IndividualContributionCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            <span className="purple">AstroRush</span> was developed by a team of students, here you can find out more about their specific <span className="purple">contributions</span> to the project:
-            <br />
+          <p style={{textAlign: "justify"}}>
+            <span className="purple">AstroRush</span> was developed by a team of students, here you can find out more
+            about their specific <span className="purple">contributions</span> to the project:
+            <br/>
 
-            <br />
+            <br/>
             William Rolf:
             <ul>
               <li className="about-activity">
-                <ImPointRight /> <span className="purple">Project Lead:</span>
-                <br />
-                  <ul>
-                  In order to set up an effective work system, I needed to break down the project into bite-sized challenges. 
-                  I structured the workflow using the <span className="purple">Scrum</span> method, where each challenge is assigned to one or more group members over our week-long period of one sprint before the next roundup. I used <span className="purple">Trello</span> to visualise this for all group members.It’s really important to have a system where there is as little confusion as possible. 
-                  That’s why I added a <span className="purple">Template for Git commits</span> so that we can always keep track of what was committed and a <span className="purple">Discord</span> server for sharing files, general communication and planning. As project lead I also took a speaker and evaluator role during public test demos to later be able to organize <span className="purple">User Feedback</span> into plans of action.
-                  </ul> 
+                <ImPointRight/> <span className="purple">Project Lead:</span>
+                <br/>
+                <ul>
+                  In order to set up an effective work system, I needed to break down the project into bite-sized
+                  challenges.
+                  I structured the workflow using the <span className="purple">Scrum</span> method, where each challenge
+                  is assigned to one or more group members over our week-long period of one sprint before the next
+                  roundup. I used <span className="purple">Trello</span> to visualise this for all group members.It’s
+                  really important to have a system where there is as little confusion as possible.
+                  That’s why I added a <span className="purple">Template for Git commits</span> so that we can always
+                  keep track of what was committed and a <span className="purple">Discord</span> server for sharing
+                  files, general communication and planning. As project lead I also took a speaker and evaluator role
+                  during public test demos to later be able to organize <span
+                    className="purple">User Feedback</span> into plans of action.
+                </ul>
               </li>
-            <br />
+              <br/>
               <li className="about-activity">
-                <ImPointRight /> <span className="purple">Mechanics:</span>
-                <br /> 
-                  <ul>
+                <ImPointRight/> <span className="purple">Mechanics:</span>
+                <br/>
+                <ul>
                   TBA
-                  </ul> 
+                </ul>
               </li>
               <li className="about-activity">
-              <ImPointRight /> <span className="purple">Graphics:</span>
-                <br /> 
-                  <ul>
+                <ImPointRight/> <span className="purple">Graphics:</span>
+                <br/>
+                <ul>
                   TBA
-                  </ul> 
+                </ul>
               </li>
             </ul>
-            <br />
+            <br/>
             Martin Håkansson:
             <ul>
               <li className="about-activity">
-                <ImPointRight /> <span className="purple">Graphics & Mechanics:</span>
-                <br />
+                <ImPointRight/> <span className="purple">Graphics & Mechanics:</span>
+                <br/>
                 <ul>
-                  I had my hand in many parts of the project, but my main focus was <span className="purple">graphics</span> and <span className="purple">mechanics/game features</span>. Some of the features I implemented were aim assist, character movement, health indication together with a lot of small features to give a better look and feel to the game, like particles, camera movement, and fog.
+                  I had my hand in many parts of the project, but my main focus was <span
+                    className="purple">graphics</span> and <span className="purple">mechanics/game features</span>. Some
+                  of the features I implemented were aim assist, character movement, health indication together with a
+                  lot of small features to give a better look and feel to the game, like particles, camera movement, and
+                  fog.
                 </ul>
               </li>
-              <br />
+              <br/>
               <li className="about-activity">
-                <ImPointRight /> <span className="purple">Depth & 3D Challenges:</span>
-                <br />
+                <ImPointRight/> <span className="purple">Depth & 3D Challenges:</span>
+                <br/>
                 <ul>
-                  Making something feel simple and intuitive is very hard, and a good result comes from getting the details right. A challenge for me was to solve the problem of depth in a 3D environment, especially in a space environment where there are no natural references. Creative solutions like light, shadows, and fog help sell the illusion, and the <span className="purple">aim assist</span> system also gives the player more control.
+                  Making something feel simple and intuitive is very hard, and a good result comes from getting the
+                  details right. A challenge for me was to solve the problem of depth in a 3D environment, especially in
+                  a space environment where there are no natural references. Creative solutions like light, shadows, and
+                  fog help sell the illusion, and the <span className="purple">aim assist</span> system also gives the
+                  player more control.
+                </ul>
+              </li>
+            </ul>
+            <br/>
+            Ke Yang:
+            <ul>
+              <li className="about-activity">
+                <ImPointRight/> <span className="purple">Interaction:</span>
+                <br/>
+                <ul>
+                  I was primarily responsible for the development of the game’s start and end processes, as well as designing parts of the onboarding process. Together with the team, I designed and developed the game’s <span
+                    className="purple">unattended start and restart mode </span>, allowing players to start the game by gathering on the planet. This way, we didn’t need staff to manually start the game.
+                </ul>
+              </li>
+              <br/>
+              <li className="about-activity">
+                <ImPointRight/> <span className="purple">Mechanics:</span>
+                <br/>
+                <ul>
+                  I was mainly responsible for some mechanics connected to the user's mobile device, specifically transmitting data from phone sensors and interaction data on the interface to the server side, where it was processed. I implemented mechanisms such as the shooting function, shake detection, and character movement.
                 </ul>
               </li>
             </ul>
