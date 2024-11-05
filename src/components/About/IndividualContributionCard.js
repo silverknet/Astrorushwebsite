@@ -40,6 +40,24 @@ function IndividualContributionCard() {
               </li>
             </ul>
             <br />
+            Martin Håkansson:
+            <ul>
+              <li className="about-activity">
+                <ImPointRight /> <span className="purple">Graphics & Mechanics:</span>
+                <br />
+                <ul>
+                  I had my hand in many parts of the project, but my main focus was <span className="purple">graphics</span> and <span className="purple">mechanics/game features</span>. Some of the features I implemented were aim assist, character movement, health indication together with a lot of small features to give a better look and feel to the game, like particles, camera movement, and fog.
+                </ul>
+              </li>
+              <br />
+              <li className="about-activity">
+                <ImPointRight /> <span className="purple">Depth & 3D Challenges:</span>
+                <br />
+                <ul>
+                  Making something feel simple and intuitive is very hard, and a good result comes from getting the details right. A challenge for me was to solve the problem of depth in a 3D environment, especially in a space environment where there are no natural references. Creative solutions like light, shadows, and fog help sell the illusion, and the <span className="purple">aim assist</span> system also gives the player more control.
+                </ul>
+              </li>
+            </ul>
           </p>
         </blockquote>
       </Card.Body>

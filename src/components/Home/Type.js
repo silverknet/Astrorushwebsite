@@ -8,6 +8,7 @@ function Type() {
         strings: [
           "Made in Sweden",
           "Like kahoot but fun",
+          "Ok kahoot is pretty fun",
           "Shoot asteroids!",
           "Inspired by peak panic",
         ],
