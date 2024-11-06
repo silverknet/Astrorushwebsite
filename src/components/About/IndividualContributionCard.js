@@ -19,32 +19,30 @@ function IndividualContributionCard() {
                 <ImPointRight/> <span className="purple">Project Lead:</span>
                 <br/>
                 <ul>
-                  In order to set up an effective work system, I needed to break down the project into bite-sized
-                  challenges.
-                  I structured the workflow using the <span className="purple">Scrum</span> method, where each challenge
-                  is assigned to one or more group members over our week-long period of one sprint before the next
-                  roundup. I used <span className="purple">Trello</span> to visualise this for all group members.It’s
-                  really important to have a system where there is as little confusion as possible.
-                  That’s why I added a <span className="purple">Template for Git commits</span> so that we can always
+                  In order to set up an effective work system, I needed to break down the project down into bite-sized
+                  challenges. As project lead I structured the workflow using the <span className="purple">Scrum</span> method, created <span className="purple">Templates for Git commits</span> so that we can always
                   keep track of what was committed and a <span className="purple">Discord</span> server for sharing
-                  files, general communication and planning. As project lead I also took a speaker and evaluator role
-                  during public test demos to later be able to organize <span
-                    className="purple">User Feedback</span> into plans of action.
+                  files, general communication and planning. As project lead I organized <span className="purple">User Feedback</span> into plans of action for the next Scrum.
                 </ul>
               </li>
               <br/>
               <li className="about-activity">
-                <ImPointRight/> <span className="purple">Mechanics:</span>
+                <ImPointRight/> <span className="purple">Graphics & Mechanics:</span>
                 <br/>
                 <ul>
-                  TBA
+                In terms of <span className="purple">Mechanics/game design</span>, I implemented asteroids, asteroid field and their functionality together with player destruction and the game's end scenes, including the scoreboard and its functionality. I also implemented audio and music into the game. 
+                For <span className="purple">graphics</span> I modelled procedural asteroids, created shields pickups as well as implemented particle systems, shaders and VFX for the assets in the game. I also experimented on using environmental assets with Martin to enhance sense of depth.
+                
                 </ul>
               </li>
+              <br/>
               <li className="about-activity">
-                <ImPointRight/> <span className="purple">Graphics:</span>
+                <ImPointRight/> <span className="purple">3D Design & UX Challenges:</span>
                 <br/>
                 <ul>
-                  TBA
+                My challenges involved the simulation of movement for the player, as well as improving user immersion.
+                Implementing environmental assets such as an asteroid field, depth-based visiblity, together with giving the player a wide-angled view improved user sense of depth.
+                Implementing audio effects and music to the game and experimenting with features such as fog and light also enhanced immersion.
                 </ul>
               </li>
             </ul>
