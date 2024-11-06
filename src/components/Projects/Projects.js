@@ -26,7 +26,7 @@ function Projects() {
               isBlog={false}
               title="Tianyi"
               description={<>Mechanics <br />Graphics <br />Backend</>}
-              ghLink="https://github.com/Radranger/DH2413-Project-1-Group-3-Advanced-Graphics-and-Interaction-agi24-/pull/40"
+              ghLink="https://www.linkedin.com/in/tianyi-yao-45b04117a/"
             />
           </div>
           <div className="project-card">
