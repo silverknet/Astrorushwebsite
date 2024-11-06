@@ -112,6 +112,25 @@ function IndividualContributionCard() {
                 </ul>
               </li>
             </ul>
+      <br/>
+            Yifan Ding:
+            <ul>
+              <li className="about-activity">
+                <ImPointRight/> <span className="purple">Graphics:</span>
+                <br/>
+                <ul>
+                  I was responsible for the <span className="purple">concept design </span> , including player character and the creation of a stylized astronomy environment. This involved modeling spaceship and planet, setting up materials to achieve a cohesive low-poly look. I also defined the visual style for <span className="purple">3D </span>  environment and integrated HDRI skybox in Unity’s Universal Render Pipeline to enhance the lighting and atmosphere. Additionally, I designed <span className="purple">2D </span> elements, such as UI and layouts for starting and ending pages, and created the project poster to represent our game’s concept.
+                </ul>
+              </li>
+              <br/>
+              <li className="about-activity">
+                <ImPointRight/> <span className="purple">Mechanics:</span>
+                <br/>
+                <ul>
+                  I contributed to the design proposals for game mechanics, like collaborating on initial gameplay ideas, suggesting interaction mechanisms, and ensuring the mechanics fit within the game’s style and competitive-cooperative structure.
+                </ul>
+              </li>
+            </ul>
           </p>
         </blockquote>
       </Card.Body>
