@@ -95,6 +95,25 @@ function IndividualContributionCard() {
                 </ul>
               </li>
             </ul>
+            <br/>
+            Tianyi Yao:
+            <ul>
+              <li className="about-activity">
+                <ImPointRight/> <span className="purple">Graphics & Mechanics:</span>
+                <br/>
+                <ul>
+                  I was responsible for implementing some mechanics such as the <span className="purple">basic shooting</span> and <span className="purple">item pick-up</span> systems, as well as handling their graphical elements. Additionally, I implemented a player identity feature, assigning each player a unique color to ensure clear differentiation within the game environment.
+                </ul>
+              </li>
+              <br/>
+              <li className="about-activity">
+                <ImPointRight/> <span className="purple">Backend:</span>
+                <br/>
+                <ul>
+                  I was responsible for implementing network-related features, such as hosting the server, enabling players to connect to it, and managing data transmission between the client and server. This included establishing <span className="purple">real-time multiplayer</span> functionality, ensuring that data was efficiently and accurately shared across multiple players during gameplay.
+                </ul>
+              </li>
+            </ul>
           </p>
         </blockquote>
       </Card.Body>
