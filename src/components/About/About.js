@@ -4,7 +4,8 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import userimg1 from "../../Assets/about1.jpg";
+import userimg2 from "../../Assets/about2.jpg";
 import Toolstack from "./Toolstack";
 import GraphandIntCard from "./GraphandIntCard";
 import ChallengesCard from "./ChallengesCard";
@@ -47,14 +48,14 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={userimg1} alt="about" className="img-fluid" />
           </Col>
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={userimg2} alt="about" className="img-fluid" />
           </Col>
           <Col
             md={7}
