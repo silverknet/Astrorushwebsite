@@ -13,29 +13,34 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-      <Row>
-        <Col md={8} className="home-about-description">
-          <h1 style={{ fontSize: "2.6em" }}>
+        <Row>
+          <iframe style={{aspectRatio: "16 / 9", padding:"0 200px", paddingBottom:"80px"}} src="https://www.youtube.com/embed/jurtKDndc3k">
+          </iframe>
+        </Row>
+        <Row>
+          <Col md={8} className="home-about-description">
+            <h1 style={{fontSize: "2.6em"}}>
             Your Phone is the <span className="purple"> Controller </span>
-          </h1>
-          <p className="home-about-body">
-            Dive into a game where your phone becomes the key to the action!
-            <br /><br />
-            Connect with your phone, take control, and watch as your moves come to life on the big screen.
-            <br /><br />
-            We’re passionate about building
-            <span className="purple"><b> interactive, cooperative experiences </b></span>
-            that bring people together for fun, teamwork, and excitement!
-            <br /><br />
-            With real-time control from your device, the game is easy to join and thrilling to play – no matter where you are on the screen.
-          </p>
-        </Col>
-        <Col md={4} className="myAvatar">
-          <Tilt>
-            <img src={myImg} className="img-fluid avatar" alt="avatar" />
-          </Tilt>
-        </Col>
-      </Row>
+            </h1>
+            <p className="home-about-body">
+              Dive into a game where your phone becomes the key to the action!
+              <br/><br/>
+              Connect with your phone, take control, and watch as your moves come to life on the big screen.
+              <br/><br/>
+              We’re passionate about building
+              <span className="purple"><b> interactive, cooperative experiences </b></span>
+              that bring people together for fun, teamwork, and excitement!
+              <br/><br/>
+              With real-time control from your device, the game is easy to join and thrilling to play – no matter where
+              you are on the screen.
+            </p>
+          </Col>
+          <Col md={4} className="myAvatar">
+            <Tilt>
+              <img src={myImg} className="img-fluid avatar" alt="avatar"/>
+            </Tilt>
+          </Col>
+        </Row>
 
         {/*<Row>
           <Col md={12} className="home-about-social">
@@ -91,4 +96,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
